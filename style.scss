@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Style+Script&display=swap');
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  height: 100vh;
+  gap: 10px;
+
+  div{
+    border: 1px solid black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Style Script', cursive;
+    font-size: 16px;
+  }
+}
+
+
+
+.lime{
+  background-color: lime;
+}
+.red{
+  background-color: red;
+}
+.black{
+  background-color: black;
+}
+.tomato{
+  background-color: #d63384;
+}
